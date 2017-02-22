@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C5DCBCC1E5BEAD700E487CF"
+               BlueprintIdentifier = "4C8A3AD91E5D3A370098B24E"
                BuildableName = "ImportCharts.app"
                BlueprintName = "ImportCharts"
                ReferencedContainer = "container:ImportCharts.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C5DCBCC1E5BEAD700E487CF"
+            BlueprintIdentifier = "4C8A3AD91E5D3A370098B24E"
             BuildableName = "ImportCharts.app"
             BlueprintName = "ImportCharts"
             ReferencedContainer = "container:ImportCharts.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C5DCBCC1E5BEAD700E487CF"
+            BlueprintIdentifier = "4C8A3AD91E5D3A370098B24E"
             BuildableName = "ImportCharts.app"
             BlueprintName = "ImportCharts"
             ReferencedContainer = "container:ImportCharts.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C5DCBCC1E5BEAD700E487CF"
+            BlueprintIdentifier = "4C8A3AD91E5D3A370098B24E"
             BuildableName = "ImportCharts.app"
             BlueprintName = "ImportCharts"
             ReferencedContainer = "container:ImportCharts.xcodeproj">

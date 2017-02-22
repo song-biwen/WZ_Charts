@@ -7,160 +7,197 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C5DCBD21E5BEAD700E487CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DCBD11E5BEAD700E487CF /* main.m */; };
-		4C5DCBD51E5BEAD700E487CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DCBD41E5BEAD700E487CF /* AppDelegate.m */; };
-		4C5DCBDB1E5BEAD700E487CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5DCBD91E5BEAD700E487CF /* Main.storyboard */; };
-		4C5DCBDD1E5BEAD700E487CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5DCBDC1E5BEAD700E487CF /* Assets.xcassets */; };
-		4C5DCBE01E5BEAD700E487CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5DCBDE1E5BEAD700E487CF /* LaunchScreen.storyboard */; };
-		4C5DCBE91E5BEB6000E487CF /* WZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DCBE81E5BEB6000E487CF /* WZTableViewController.m */; };
-		4C5DCBF81E5BED4900E487CF /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DCBF71E5BED4900E487CF /* test.swift */; };
-		4C5DCBF91E5BF13A00E487CF /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5DCBF11E5BED3100E487CF /* Charts.framework */; };
-		4C5DCC021E5C104600E487CF /* WZLineChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DCC001E5C104600E487CF /* WZLineChart1ViewController.m */; };
-		4C5DCC031E5C104600E487CF /* WZLineChart1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5DCC011E5C104600E487CF /* WZLineChart1ViewController.xib */; };
+		4C8A3ADF1E5D3A370098B24E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A3ADE1E5D3A370098B24E /* main.m */; };
+		4C8A3AE21E5D3A370098B24E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A3AE11E5D3A370098B24E /* AppDelegate.m */; };
+		4C8A3AE81E5D3A370098B24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A3AE61E5D3A370098B24E /* Main.storyboard */; };
+		4C8A3AEA1E5D3A370098B24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A3AE91E5D3A370098B24E /* Assets.xcassets */; };
+		4C8A3AED1E5D3A370098B24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A3AEB1E5D3A370098B24E /* LaunchScreen.storyboard */; };
+		4CD814CE1E5D5CE400A141CE /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A3AFC1E5D41130098B24E /* Charts.framework */; };
+		4CD814CF1E5D5CE400A141CE /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A3AFC1E5D41130098B24E /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4CD814D51E5D5D1200A141CE /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD814D41E5D5D1200A141CE /* test.swift */; };
+		4CD814D91E5D5E1500A141CE /* WZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD814D81E5D5E1500A141CE /* WZTableViewController.m */; };
+		4CD814DD1E5D5F3D00A141CE /* WZLineChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD814DB1E5D5F3D00A141CE /* WZLineChart1ViewController.m */; };
+		4CD814DE1E5D5F3D00A141CE /* WZLineChart1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD814DC1E5D5F3D00A141CE /* WZLineChart1ViewController.xib */; };
+		4CD814E11E5D739100A141CE /* WZBalloonMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD814E01E5D739100A141CE /* WZBalloonMarker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4C5DCBF01E5BED3100E487CF /* PBXContainerItemProxy */ = {
+		4C8A3AFB1E5D41130098B24E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4C5DCBEA1E5BED3100E487CF /* Charts.xcodeproj */;
+			containerPortal = 4C8A3AF51E5D41120098B24E /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 06165F241D8110E600722320;
 			remoteInfo = Charts;
 		};
-		4C5DCBF21E5BED3100E487CF /* PBXContainerItemProxy */ = {
+		4C8A3AFD1E5D41130098B24E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4C5DCBEA1E5BED3100E487CF /* Charts.xcodeproj */;
+			containerPortal = 4C8A3AF51E5D41120098B24E /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 06B120D51D811E6200D14B02;
 			remoteInfo = ChartsRealm;
 		};
-		4C5DCBF41E5BED3100E487CF /* PBXContainerItemProxy */ = {
+		4C8A3AFF1E5D41130098B24E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4C5DCBEA1E5BED3100E487CF /* Charts.xcodeproj */;
+			containerPortal = 4C8A3AF51E5D41120098B24E /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 06165F2E1D8110E600722320;
 			remoteInfo = ChartsTests;
 		};
+		4CD814D01E5D5CE400A141CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C8A3AF51E5D41120098B24E /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4CD814D21E5D5CE400A141CE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4CD814CF1E5D5CE400A141CE /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		4C5DCBCD1E5BEAD700E487CF /* ImportCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C5DCBD11E5BEAD700E487CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4C5DCBD31E5BEAD700E487CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4C5DCBD41E5BEAD700E487CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4C5DCBDA1E5BEAD700E487CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4C5DCBDC1E5BEAD700E487CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C5DCBDF1E5BEAD700E487CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4C5DCBE11E5BEAD700E487CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C5DCBE71E5BEB6000E487CF /* WZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTableViewController.h; sourceTree = "<group>"; };
-		4C5DCBE81E5BEB6000E487CF /* WZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZTableViewController.m; sourceTree = "<group>"; };
-		4C5DCBEA1E5BED3100E487CF /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = SOURCE_ROOT; };
-		4C5DCBF61E5BED4800E487CF /* ImportCharts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImportCharts-Bridging-Header.h"; sourceTree = "<group>"; };
-		4C5DCBF71E5BED4900E487CF /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		4C5DCBFF1E5C104600E487CF /* WZLineChart1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLineChart1ViewController.h; sourceTree = "<group>"; };
-		4C5DCC001E5C104600E487CF /* WZLineChart1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZLineChart1ViewController.m; sourceTree = "<group>"; };
-		4C5DCC011E5C104600E487CF /* WZLineChart1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZLineChart1ViewController.xib; sourceTree = "<group>"; };
+		4C8A3ADA1E5D3A370098B24E /* ImportCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8A3ADE1E5D3A370098B24E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C8A3AE01E5D3A370098B24E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C8A3AE11E5D3A370098B24E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C8A3AE71E5D3A370098B24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C8A3AE91E5D3A370098B24E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C8A3AEC1E5D3A370098B24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C8A3AEE1E5D3A370098B24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8A3AF51E5D41120098B24E /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
+		4CD814D31E5D5D1200A141CE /* ImportCharts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImportCharts-Bridging-Header.h"; sourceTree = "<group>"; };
+		4CD814D41E5D5D1200A141CE /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		4CD814D71E5D5E1500A141CE /* WZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTableViewController.h; sourceTree = "<group>"; };
+		4CD814D81E5D5E1500A141CE /* WZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZTableViewController.m; sourceTree = "<group>"; };
+		4CD814DA1E5D5F3D00A141CE /* WZLineChart1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLineChart1ViewController.h; sourceTree = "<group>"; };
+		4CD814DB1E5D5F3D00A141CE /* WZLineChart1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZLineChart1ViewController.m; sourceTree = "<group>"; };
+		4CD814DC1E5D5F3D00A141CE /* WZLineChart1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZLineChart1ViewController.xib; sourceTree = "<group>"; };
+		4CD814DF1E5D739100A141CE /* WZBalloonMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBalloonMarker.h; sourceTree = "<group>"; };
+		4CD814E01E5D739100A141CE /* WZBalloonMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBalloonMarker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C5DCBCA1E5BEAD700E487CF /* Frameworks */ = {
+		4C8A3AD71E5D3A370098B24E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C5DCBF91E5BF13A00E487CF /* Charts.framework in Frameworks */,
+				4CD814CE1E5D5CE400A141CE /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C5DCBC41E5BEAD700E487CF = {
+		4C8A3AD11E5D3A370098B24E = {
 			isa = PBXGroup;
 			children = (
-				4C5DCBCF1E5BEAD700E487CF /* ImportCharts */,
-				4C5DCBCE1E5BEAD700E487CF /* Products */,
+				4C8A3ADC1E5D3A370098B24E /* ImportCharts */,
+				4C8A3ADB1E5D3A370098B24E /* Products */,
+				4C8A3AF51E5D41120098B24E /* Charts.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
-		4C5DCBCE1E5BEAD700E487CF /* Products */ = {
+		4C8A3ADB1E5D3A370098B24E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C5DCBCD1E5BEAD700E487CF /* ImportCharts.app */,
+				4C8A3ADA1E5D3A370098B24E /* ImportCharts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C5DCBCF1E5BEAD700E487CF /* ImportCharts */ = {
+		4C8A3ADC1E5D3A370098B24E /* ImportCharts */ = {
 			isa = PBXGroup;
 			children = (
-				4C5DCBD31E5BEAD700E487CF /* AppDelegate.h */,
-				4C5DCBD41E5BEAD700E487CF /* AppDelegate.m */,
-				4C5DCBE71E5BEB6000E487CF /* WZTableViewController.h */,
-				4C5DCBE81E5BEB6000E487CF /* WZTableViewController.m */,
-				4C5DCBFF1E5C104600E487CF /* WZLineChart1ViewController.h */,
-				4C5DCC001E5C104600E487CF /* WZLineChart1ViewController.m */,
-				4C5DCC011E5C104600E487CF /* WZLineChart1ViewController.xib */,
-				4C5DCBF71E5BED4900E487CF /* test.swift */,
-				4C5DCBD91E5BEAD700E487CF /* Main.storyboard */,
-				4C5DCBEA1E5BED3100E487CF /* Charts.xcodeproj */,
-				4C5DCBDC1E5BEAD700E487CF /* Assets.xcassets */,
-				4C5DCBDE1E5BEAD700E487CF /* LaunchScreen.storyboard */,
-				4C5DCBE11E5BEAD700E487CF /* Info.plist */,
-				4C5DCBD01E5BEAD700E487CF /* Supporting Files */,
-				4C5DCBF61E5BED4800E487CF /* ImportCharts-Bridging-Header.h */,
+				4C8A3AE01E5D3A370098B24E /* AppDelegate.h */,
+				4C8A3AE11E5D3A370098B24E /* AppDelegate.m */,
+				4CD814D61E5D5DEE00A141CE /* Demo */,
+				4CD814D41E5D5D1200A141CE /* test.swift */,
+				4C8A3AE61E5D3A370098B24E /* Main.storyboard */,
+				4C8A3AE91E5D3A370098B24E /* Assets.xcassets */,
+				4C8A3AEB1E5D3A370098B24E /* LaunchScreen.storyboard */,
+				4C8A3AEE1E5D3A370098B24E /* Info.plist */,
+				4C8A3ADD1E5D3A370098B24E /* Supporting Files */,
+				4CD814D31E5D5D1200A141CE /* ImportCharts-Bridging-Header.h */,
 			);
 			path = ImportCharts;
 			sourceTree = "<group>";
 		};
-		4C5DCBD01E5BEAD700E487CF /* Supporting Files */ = {
+		4C8A3ADD1E5D3A370098B24E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4C5DCBD11E5BEAD700E487CF /* main.m */,
+				4C8A3ADE1E5D3A370098B24E /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4C5DCBEB1E5BED3100E487CF /* Products */ = {
+		4C8A3AF61E5D41120098B24E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C5DCBF11E5BED3100E487CF /* Charts.framework */,
-				4C5DCBF31E5BED3100E487CF /* ChartsRealm.framework */,
-				4C5DCBF51E5BED3100E487CF /* ChartsTests.xctest */,
+				4C8A3AFC1E5D41130098B24E /* Charts.framework */,
+				4C8A3AFE1E5D41130098B24E /* ChartsRealm.framework */,
+				4C8A3B001E5D41130098B24E /* ChartsTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4CD814D61E5D5DEE00A141CE /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4CD814D71E5D5E1500A141CE /* WZTableViewController.h */,
+				4CD814D81E5D5E1500A141CE /* WZTableViewController.m */,
+				4CD814DA1E5D5F3D00A141CE /* WZLineChart1ViewController.h */,
+				4CD814DB1E5D5F3D00A141CE /* WZLineChart1ViewController.m */,
+				4CD814DF1E5D739100A141CE /* WZBalloonMarker.h */,
+				4CD814E01E5D739100A141CE /* WZBalloonMarker.m */,
+				4CD814DC1E5D5F3D00A141CE /* WZLineChart1ViewController.xib */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C5DCBCC1E5BEAD700E487CF /* ImportCharts */ = {
+		4C8A3AD91E5D3A370098B24E /* ImportCharts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C5DCBE41E5BEAD700E487CF /* Build configuration list for PBXNativeTarget "ImportCharts" */;
+			buildConfigurationList = 4C8A3AF11E5D3A370098B24E /* Build configuration list for PBXNativeTarget "ImportCharts" */;
 			buildPhases = (
-				4C5DCBC91E5BEAD700E487CF /* Sources */,
-				4C5DCBCA1E5BEAD700E487CF /* Frameworks */,
-				4C5DCBCB1E5BEAD700E487CF /* Resources */,
+				4C8A3AD61E5D3A370098B24E /* Sources */,
+				4C8A3AD71E5D3A370098B24E /* Frameworks */,
+				4C8A3AD81E5D3A370098B24E /* Resources */,
+				4CD814D21E5D5CE400A141CE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4CD814D11E5D5CE400A141CE /* PBXTargetDependency */,
 			);
 			name = ImportCharts;
 			productName = ImportCharts;
-			productReference = 4C5DCBCD1E5BEAD700E487CF /* ImportCharts.app */;
+			productReference = 4C8A3ADA1E5D3A370098B24E /* ImportCharts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4C5DCBC51E5BEAD700E487CF /* Project object */ = {
+		4C8A3AD21E5D3A370098B24E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = WZ;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = songbiwen;
 				TargetAttributes = {
-					4C5DCBCC1E5BEAD700E487CF = {
+					4C8A3AD91E5D3A370098B24E = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 8XMYBN9U4K;
 						LastSwiftMigration = 0820;
@@ -168,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4C5DCBC81E5BEAD700E487CF /* Build configuration list for PBXProject "ImportCharts" */;
+			buildConfigurationList = 4C8A3AD51E5D3A370098B24E /* Build configuration list for PBXProject "ImportCharts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,88 +213,97 @@
 				en,
 				Base,
 			);
-			mainGroup = 4C5DCBC41E5BEAD700E487CF;
-			productRefGroup = 4C5DCBCE1E5BEAD700E487CF /* Products */;
+			mainGroup = 4C8A3AD11E5D3A370098B24E;
+			productRefGroup = 4C8A3ADB1E5D3A370098B24E /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 4C5DCBEB1E5BED3100E487CF /* Products */;
-					ProjectRef = 4C5DCBEA1E5BED3100E487CF /* Charts.xcodeproj */;
+					ProductGroup = 4C8A3AF61E5D41120098B24E /* Products */;
+					ProjectRef = 4C8A3AF51E5D41120098B24E /* Charts.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				4C5DCBCC1E5BEAD700E487CF /* ImportCharts */,
+				4C8A3AD91E5D3A370098B24E /* ImportCharts */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4C5DCBF11E5BED3100E487CF /* Charts.framework */ = {
+		4C8A3AFC1E5D41130098B24E /* Charts.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Charts.framework;
-			remoteRef = 4C5DCBF01E5BED3100E487CF /* PBXContainerItemProxy */;
+			remoteRef = 4C8A3AFB1E5D41130098B24E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4C5DCBF31E5BED3100E487CF /* ChartsRealm.framework */ = {
+		4C8A3AFE1E5D41130098B24E /* ChartsRealm.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ChartsRealm.framework;
-			remoteRef = 4C5DCBF21E5BED3100E487CF /* PBXContainerItemProxy */;
+			remoteRef = 4C8A3AFD1E5D41130098B24E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4C5DCBF51E5BED3100E487CF /* ChartsTests.xctest */ = {
+		4C8A3B001E5D41130098B24E /* ChartsTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ChartsTests.xctest;
-			remoteRef = 4C5DCBF41E5BED3100E487CF /* PBXContainerItemProxy */;
+			remoteRef = 4C8A3AFF1E5D41130098B24E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4C5DCBCB1E5BEAD700E487CF /* Resources */ = {
+		4C8A3AD81E5D3A370098B24E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C5DCBE01E5BEAD700E487CF /* LaunchScreen.storyboard in Resources */,
-				4C5DCBDD1E5BEAD700E487CF /* Assets.xcassets in Resources */,
-				4C5DCC031E5C104600E487CF /* WZLineChart1ViewController.xib in Resources */,
-				4C5DCBDB1E5BEAD700E487CF /* Main.storyboard in Resources */,
+				4C8A3AED1E5D3A370098B24E /* LaunchScreen.storyboard in Resources */,
+				4C8A3AEA1E5D3A370098B24E /* Assets.xcassets in Resources */,
+				4CD814DE1E5D5F3D00A141CE /* WZLineChart1ViewController.xib in Resources */,
+				4C8A3AE81E5D3A370098B24E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4C5DCBC91E5BEAD700E487CF /* Sources */ = {
+		4C8A3AD61E5D3A370098B24E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C5DCBE91E5BEB6000E487CF /* WZTableViewController.m in Sources */,
-				4C5DCBF81E5BED4900E487CF /* test.swift in Sources */,
-				4C5DCBD51E5BEAD700E487CF /* AppDelegate.m in Sources */,
-				4C5DCBD21E5BEAD700E487CF /* main.m in Sources */,
-				4C5DCC021E5C104600E487CF /* WZLineChart1ViewController.m in Sources */,
+				4CD814E11E5D739100A141CE /* WZBalloonMarker.m in Sources */,
+				4CD814D51E5D5D1200A141CE /* test.swift in Sources */,
+				4C8A3AE21E5D3A370098B24E /* AppDelegate.m in Sources */,
+				4CD814D91E5D5E1500A141CE /* WZTableViewController.m in Sources */,
+				4C8A3ADF1E5D3A370098B24E /* main.m in Sources */,
+				4CD814DD1E5D5F3D00A141CE /* WZLineChart1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4CD814D11E5D5CE400A141CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 4CD814D01E5D5CE400A141CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		4C5DCBD91E5BEAD700E487CF /* Main.storyboard */ = {
+		4C8A3AE61E5D3A370098B24E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C5DCBDA1E5BEAD700E487CF /* Base */,
+				4C8A3AE71E5D3A370098B24E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4C5DCBDE1E5BEAD700E487CF /* LaunchScreen.storyboard */ = {
+		4C8A3AEB1E5D3A370098B24E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C5DCBDF1E5BEAD700E487CF /* Base */,
+				4C8A3AEC1E5D3A370098B24E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -265,7 +311,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4C5DCBE21E5BEAD700E487CF /* Debug */ = {
+		4C8A3AEF1E5D3A370098B24E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,14 +351,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		4C5DCBE31E5BEAD700E487CF /* Release */ = {
+		4C8A3AF01E5D3A370098B24E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -346,14 +392,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		4C5DCBE51E5BEAD700E487CF /* Debug */ = {
+		4C8A3AF21E5D3A370098B24E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -371,7 +417,7 @@
 			};
 			name = Debug;
 		};
-		4C5DCBE61E5BEAD700E487CF /* Release */ = {
+		4C8A3AF31E5D3A370098B24E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -391,24 +437,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C5DCBC81E5BEAD700E487CF /* Build configuration list for PBXProject "ImportCharts" */ = {
+		4C8A3AD51E5D3A370098B24E /* Build configuration list for PBXProject "ImportCharts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C5DCBE21E5BEAD700E487CF /* Debug */,
-				4C5DCBE31E5BEAD700E487CF /* Release */,
+				4C8A3AEF1E5D3A370098B24E /* Debug */,
+				4C8A3AF01E5D3A370098B24E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C5DCBE41E5BEAD700E487CF /* Build configuration list for PBXNativeTarget "ImportCharts" */ = {
+		4C8A3AF11E5D3A370098B24E /* Build configuration list for PBXNativeTarget "ImportCharts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C5DCBE51E5BEAD700E487CF /* Debug */,
-				4C5DCBE61E5BEAD700E487CF /* Release */,
+				4C8A3AF21E5D3A370098B24E /* Debug */,
+				4C8A3AF31E5D3A370098B24E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4C5DCBC51E5BEAD700E487CF /* Project object */;
+	rootObject = 4C8A3AD21E5D3A370098B24E /* Project object */;
 }

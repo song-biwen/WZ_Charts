@@ -2,7 +2,7 @@
 //  WZTableViewController.m
 //  ImportCharts
 //
-//  Created by songbiwen on 2017/2/21.
+//  Created by songbiwen on 2017/2/22.
 //  Copyright © 2017年 songbiwen. All rights reserved.
 //
 
@@ -16,9 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+    
     [self.dataSource addObjectsFromArray:@[@"WZLineChart1ViewController"]];
 }
+
 
 #pragma mark - UITableViewDataSource
 
@@ -39,19 +40,18 @@
 
 #pragma mark - UITableViewDelegate
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 44;
+    return 44;;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSString *clsName = self.dataSource[indexPath.row];
+    Class cls = NSClassFromString(clsName);
+    [self.navigationController pushViewController:[[cls alloc] init] animated:YES];
     
     [self.tableView deselectRowAtIndexPath:indexPath animated:NO];
     
-    NSString *clsName = self.dataSource[indexPath.row];
-    Class cls = NSClassFromString(clsName);
-    
-    [self.navigationController pushViewController:[[cls alloc] init] animated:YES];
-    
 }
+
 
 - (NSMutableArray *)dataSource {
     if (!_dataSource) {
