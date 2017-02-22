@@ -18,7 +18,8 @@
 		4CD814D91E5D5E1500A141CE /* WZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD814D81E5D5E1500A141CE /* WZTableViewController.m */; };
 		4CD814DD1E5D5F3D00A141CE /* WZLineChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD814DB1E5D5F3D00A141CE /* WZLineChart1ViewController.m */; };
 		4CD814DE1E5D5F3D00A141CE /* WZLineChart1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD814DC1E5D5F3D00A141CE /* WZLineChart1ViewController.xib */; };
-		4CD814E11E5D739100A141CE /* WZBalloonMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD814E01E5D739100A141CE /* WZBalloonMarker.m */; };
+		4CD814E51E5D7A6700A141CE /* WZLineChart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD814E31E5D7A6700A141CE /* WZLineChart2ViewController.m */; };
+		4CD814E61E5D7A6700A141CE /* WZLineChart2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD814E41E5D7A6700A141CE /* WZLineChart2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +84,9 @@
 		4CD814DA1E5D5F3D00A141CE /* WZLineChart1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLineChart1ViewController.h; sourceTree = "<group>"; };
 		4CD814DB1E5D5F3D00A141CE /* WZLineChart1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZLineChart1ViewController.m; sourceTree = "<group>"; };
 		4CD814DC1E5D5F3D00A141CE /* WZLineChart1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZLineChart1ViewController.xib; sourceTree = "<group>"; };
-		4CD814DF1E5D739100A141CE /* WZBalloonMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBalloonMarker.h; sourceTree = "<group>"; };
-		4CD814E01E5D739100A141CE /* WZBalloonMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBalloonMarker.m; sourceTree = "<group>"; };
+		4CD814E21E5D7A6700A141CE /* WZLineChart2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLineChart2ViewController.h; sourceTree = "<group>"; };
+		4CD814E31E5D7A6700A141CE /* WZLineChart2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZLineChart2ViewController.m; sourceTree = "<group>"; };
+		4CD814E41E5D7A6700A141CE /* WZLineChart2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZLineChart2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,9 +160,10 @@
 				4CD814D81E5D5E1500A141CE /* WZTableViewController.m */,
 				4CD814DA1E5D5F3D00A141CE /* WZLineChart1ViewController.h */,
 				4CD814DB1E5D5F3D00A141CE /* WZLineChart1ViewController.m */,
-				4CD814DF1E5D739100A141CE /* WZBalloonMarker.h */,
-				4CD814E01E5D739100A141CE /* WZBalloonMarker.m */,
 				4CD814DC1E5D5F3D00A141CE /* WZLineChart1ViewController.xib */,
+				4CD814E21E5D7A6700A141CE /* WZLineChart2ViewController.h */,
+				4CD814E31E5D7A6700A141CE /* WZLineChart2ViewController.m */,
+				4CD814E41E5D7A6700A141CE /* WZLineChart2ViewController.xib */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD814E61E5D7A6700A141CE /* WZLineChart2ViewController.xib in Resources */,
 				4C8A3AED1E5D3A370098B24E /* LaunchScreen.storyboard in Resources */,
 				4C8A3AEA1E5D3A370098B24E /* Assets.xcassets in Resources */,
 				4CD814DE1E5D5F3D00A141CE /* WZLineChart1ViewController.xib in Resources */,
@@ -272,8 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD814E11E5D739100A141CE /* WZBalloonMarker.m in Sources */,
 				4CD814D51E5D5D1200A141CE /* test.swift in Sources */,
+				4CD814E51E5D7A6700A141CE /* WZLineChart2ViewController.m in Sources */,
 				4C8A3AE21E5D3A370098B24E /* AppDelegate.m in Sources */,
 				4CD814D91E5D5E1500A141CE /* WZTableViewController.m in Sources */,
 				4C8A3ADF1E5D3A370098B24E /* main.m in Sources */,
