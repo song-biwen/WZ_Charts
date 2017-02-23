@@ -22,6 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = @"Line Chart";
+    
+    
+    
     CGFloat width = 1.0/[UIScreen mainScreen].scale;
     
     

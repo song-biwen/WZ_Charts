@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.dataSource addObjectsFromArray:@[@"WZLineChart1ViewController",@"WZLineChart2ViewController"]];
+    [self.dataSource addObjectsFromArray:@[@"WZLineChart1ViewController",@"WZLineChart2ViewController",@"WZBarChartViewController"]];
 }
 
 

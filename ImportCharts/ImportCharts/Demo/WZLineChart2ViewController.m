@@ -22,6 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = @"Line Chart (Dual YAxis)";
+    
+    
+    
     self.lineChartView.backgroundColor = [UIColor colorWithWhite:204/255.f alpha:1.f];
     self.lineChartView.delegate = self;//设置代理
     self.lineChartView.chartDescription.enabled = NO;//不显示description label
@@ -160,7 +164,6 @@
     set3.drawCircleHoleEnabled = NO;
     
     self.lineChartView.data = [[LineChartData alloc] initWithDataSets:@[set1,set2,set3]];
-    
     
 }
 @end
