@@ -10,6 +10,10 @@
 		4C15DF871E5E6F9100CD3AC7 /* WZBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DF851E5E6F9100CD3AC7 /* WZBarChartViewController.m */; };
 		4C15DF881E5E6F9100CD3AC7 /* WZBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C15DF861E5E6F9100CD3AC7 /* WZBarChartViewController.xib */; };
 		4C15DF8D1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DF8C1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m */; };
+		4C15DF911E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DF8F1E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.m */; };
+		4C15DF921E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C15DF901E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.xib */; };
+		4C15DF961E5EB03C00CD3AC7 /* WZCombinedChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DF941E5EB03C00CD3AC7 /* WZCombinedChartViewController.m */; };
+		4C15DF971E5EB03C00CD3AC7 /* WZCombinedChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C15DF951E5EB03C00CD3AC7 /* WZCombinedChartViewController.xib */; };
 		4C8A3ADF1E5D3A370098B24E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A3ADE1E5D3A370098B24E /* main.m */; };
 		4C8A3AE21E5D3A370098B24E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A3AE11E5D3A370098B24E /* AppDelegate.m */; };
 		4C8A3AE81E5D3A370098B24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A3AE61E5D3A370098B24E /* Main.storyboard */; };
@@ -76,6 +80,12 @@
 		4C15DF861E5E6F9100CD3AC7 /* WZBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZBarChartViewController.xib; sourceTree = "<group>"; };
 		4C15DF8B1E5E755200CD3AC7 /* WZDayAxisValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZDayAxisValueFormatter.h; sourceTree = "<group>"; };
 		4C15DF8C1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZDayAxisValueFormatter.m; sourceTree = "<group>"; };
+		4C15DF8E1E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZHorizontalBarChartViewController.h; sourceTree = "<group>"; };
+		4C15DF8F1E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZHorizontalBarChartViewController.m; sourceTree = "<group>"; };
+		4C15DF901E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZHorizontalBarChartViewController.xib; sourceTree = "<group>"; };
+		4C15DF931E5EB03C00CD3AC7 /* WZCombinedChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCombinedChartViewController.h; sourceTree = "<group>"; };
+		4C15DF941E5EB03C00CD3AC7 /* WZCombinedChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCombinedChartViewController.m; sourceTree = "<group>"; };
+		4C15DF951E5EB03C00CD3AC7 /* WZCombinedChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZCombinedChartViewController.xib; sourceTree = "<group>"; };
 		4C8A3ADA1E5D3A370098B24E /* ImportCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8A3ADE1E5D3A370098B24E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C8A3AE01E5D3A370098B24E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +185,12 @@
 				4C15DF841E5E6F9100CD3AC7 /* WZBarChartViewController.h */,
 				4C15DF851E5E6F9100CD3AC7 /* WZBarChartViewController.m */,
 				4C15DF861E5E6F9100CD3AC7 /* WZBarChartViewController.xib */,
+				4C15DF8E1E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.h */,
+				4C15DF8F1E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.m */,
+				4C15DF901E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.xib */,
+				4C15DF931E5EB03C00CD3AC7 /* WZCombinedChartViewController.h */,
+				4C15DF941E5EB03C00CD3AC7 /* WZCombinedChartViewController.m */,
+				4C15DF951E5EB03C00CD3AC7 /* WZCombinedChartViewController.xib */,
 				4C15DF8B1E5E755200CD3AC7 /* WZDayAxisValueFormatter.h */,
 				4C15DF8C1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m */,
 			);
@@ -279,7 +295,9 @@
 				4C8A3AED1E5D3A370098B24E /* LaunchScreen.storyboard in Resources */,
 				4C8A3AEA1E5D3A370098B24E /* Assets.xcassets in Resources */,
 				4CD814DE1E5D5F3D00A141CE /* WZLineChart1ViewController.xib in Resources */,
+				4C15DF921E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.xib in Resources */,
 				4C8A3AE81E5D3A370098B24E /* Main.storyboard in Resources */,
+				4C15DF971E5EB03C00CD3AC7 /* WZCombinedChartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD814D51E5D5D1200A141CE /* test.swift in Sources */,
+				4C15DF911E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.m in Sources */,
 				4C15DF8D1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m in Sources */,
+				4C15DF961E5EB03C00CD3AC7 /* WZCombinedChartViewController.m in Sources */,
 				4CD814E51E5D7A6700A141CE /* WZLineChart2ViewController.m in Sources */,
 				4C8A3AE21E5D3A370098B24E /* AppDelegate.m in Sources */,
 				4CD814D91E5D5E1500A141CE /* WZTableViewController.m in Sources */,

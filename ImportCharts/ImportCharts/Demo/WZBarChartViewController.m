@@ -114,11 +114,12 @@
     BarChartDataSet *set1 = [[BarChartDataSet alloc] initWithValues:yVals];
     [set1 setColors:ChartColorTemplates.material];
     set1.drawIconsEnabled = NO;
-    set1.barBorderWidth = 2.0;
-    set1.barBorderColor = [UIColor grayColor];
+    set1.barBorderWidth = 1.0;
+    set1.barBorderColor = [UIColor brownColor];
     
-    self.barChartView.data = [[BarChartData alloc] initWithDataSet:set1];
-    
+    BarChartData *data = [[BarChartData alloc] initWithDataSet:set1];
+    data.barWidth = 10.0;
+    self.barChartView.data = data;
 }
 #pragma mark - ChartViewDelegate
 - (void)chartValueSelected:(ChartViewBase * _Nonnull)chartView entry:(ChartDataEntry * _Nonnull)entry highlight:(ChartHighlight * _Nonnull)highlight {
