@@ -20,7 +20,7 @@
     [self.dataSource addObjectsFromArray:@[
                            @"WZLineChart1ViewController",@"WZLineChart2ViewController",
                            @"WZBarChartViewController",@"WZHorizontalBarChartViewController",
-                           @"WZCombinedChartViewController"
+                           @"WZCombinedChartViewController",@"WZPieChartViewController",
                            ]
      
      ];
