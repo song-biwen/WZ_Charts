@@ -20,6 +20,8 @@
 		4C15DFA11E5EC66600CD3AC7 /* WZPiePolylineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C15DF9F1E5EC66500CD3AC7 /* WZPiePolylineChartViewController.xib */; };
 		4C15DFA51E5ED07300CD3AC7 /* WZScatterChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DFA31E5ED07300CD3AC7 /* WZScatterChartViewController.m */; };
 		4C15DFA61E5ED07300CD3AC7 /* WZScatterChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C15DFA41E5ED07300CD3AC7 /* WZScatterChartViewController.xib */; };
+		4C8747611E63F81F0043A747 /* WZBubbleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C87475F1E63F81F0043A747 /* WZBubbleChartViewController.m */; };
+		4C8747621E63F81F0043A747 /* WZBubbleChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8747601E63F81F0043A747 /* WZBubbleChartViewController.xib */; };
 		4C8A3ADF1E5D3A370098B24E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A3ADE1E5D3A370098B24E /* main.m */; };
 		4C8A3AE21E5D3A370098B24E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A3AE11E5D3A370098B24E /* AppDelegate.m */; };
 		4C8A3AE81E5D3A370098B24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A3AE61E5D3A370098B24E /* Main.storyboard */; };
@@ -101,6 +103,9 @@
 		4C15DFA21E5ED07300CD3AC7 /* WZScatterChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZScatterChartViewController.h; sourceTree = "<group>"; };
 		4C15DFA31E5ED07300CD3AC7 /* WZScatterChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZScatterChartViewController.m; sourceTree = "<group>"; };
 		4C15DFA41E5ED07300CD3AC7 /* WZScatterChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZScatterChartViewController.xib; sourceTree = "<group>"; };
+		4C87475E1E63F81F0043A747 /* WZBubbleChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBubbleChartViewController.h; sourceTree = "<group>"; };
+		4C87475F1E63F81F0043A747 /* WZBubbleChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBubbleChartViewController.m; sourceTree = "<group>"; };
+		4C8747601E63F81F0043A747 /* WZBubbleChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZBubbleChartViewController.xib; sourceTree = "<group>"; };
 		4C8A3ADA1E5D3A370098B24E /* ImportCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8A3ADE1E5D3A370098B24E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C8A3AE01E5D3A370098B24E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -215,6 +220,9 @@
 				4C15DFA21E5ED07300CD3AC7 /* WZScatterChartViewController.h */,
 				4C15DFA31E5ED07300CD3AC7 /* WZScatterChartViewController.m */,
 				4C15DFA41E5ED07300CD3AC7 /* WZScatterChartViewController.xib */,
+				4C87475E1E63F81F0043A747 /* WZBubbleChartViewController.h */,
+				4C87475F1E63F81F0043A747 /* WZBubbleChartViewController.m */,
+				4C8747601E63F81F0043A747 /* WZBubbleChartViewController.xib */,
 				4C15DF8B1E5E755200CD3AC7 /* WZDayAxisValueFormatter.h */,
 				4C15DF8C1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m */,
 			);
@@ -324,6 +332,7 @@
 				4CD814DE1E5D5F3D00A141CE /* WZLineChart1ViewController.xib in Resources */,
 				4C15DF921E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.xib in Resources */,
 				4C8A3AE81E5D3A370098B24E /* Main.storyboard in Resources */,
+				4C8747621E63F81F0043A747 /* WZBubbleChartViewController.xib in Resources */,
 				4C15DF971E5EB03C00CD3AC7 /* WZCombinedChartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +354,7 @@
 				4C15DF9B1E5EBD0400CD3AC7 /* WZPieChartViewController.m in Sources */,
 				4CD814D91E5D5E1500A141CE /* WZTableViewController.m in Sources */,
 				4C15DF871E5E6F9100CD3AC7 /* WZBarChartViewController.m in Sources */,
+				4C8747611E63F81F0043A747 /* WZBubbleChartViewController.m in Sources */,
 				4C15DFA51E5ED07300CD3AC7 /* WZScatterChartViewController.m in Sources */,
 				4C8A3ADF1E5D3A370098B24E /* main.m in Sources */,
 				4CD814DD1E5D5F3D00A141CE /* WZLineChart1ViewController.m in Sources */,

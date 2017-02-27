@@ -22,6 +22,7 @@
                            @"WZBarChartViewController",@"WZHorizontalBarChartViewController",
                            @"WZCombinedChartViewController",@"WZPieChartViewController",
                         @"WZPiePolylineChartViewController",@"WZScatterChartViewController",
+                           @"WZBubbleChartViewController",
                            ]
      
      ];
