@@ -23,7 +23,7 @@
                            @"WZCombinedChartViewController",@"WZPieChartViewController",
                         @"WZPiePolylineChartViewController",@"WZScatterChartViewController",
                            @"WZBubbleChartViewController",@"WZStackedBarChartViewController",
-                           
+                           @"WZNegativeStackedBarChartViewController",
                            ]
      
      ];
