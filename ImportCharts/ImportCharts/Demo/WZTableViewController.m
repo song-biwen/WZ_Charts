@@ -21,6 +21,7 @@
                            @"WZLineChart1ViewController",@"WZLineChart2ViewController",
                            @"WZBarChartViewController",@"WZHorizontalBarChartViewController",
                            @"WZCombinedChartViewController",@"WZPieChartViewController",
+                        @"WZPiePolylineChartViewController",@"WZScatterChartViewController",
                            ]
      
      ];
