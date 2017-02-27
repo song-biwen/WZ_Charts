@@ -28,6 +28,8 @@
 		4C87476E1E6406950043A747 /* WZNegativeStackedBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C87476C1E6406950043A747 /* WZNegativeStackedBarChartViewController.xib */; };
 		4C8747721E640DA30043A747 /* WZAnotherBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8747701E640DA30043A747 /* WZAnotherBarChartViewController.m */; };
 		4C8747731E640DA30043A747 /* WZAnotherBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8747711E640DA30043A747 /* WZAnotherBarChartViewController.xib */; };
+		4C8747771E6419870043A747 /* WZMultipleLinesChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8747751E6419870043A747 /* WZMultipleLinesChartViewController.m */; };
+		4C8747781E6419870043A747 /* WZMultipleLinesChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8747761E6419870043A747 /* WZMultipleLinesChartViewController.xib */; };
 		4C8A3ADF1E5D3A370098B24E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A3ADE1E5D3A370098B24E /* main.m */; };
 		4C8A3AE21E5D3A370098B24E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A3AE11E5D3A370098B24E /* AppDelegate.m */; };
 		4C8A3AE81E5D3A370098B24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A3AE61E5D3A370098B24E /* Main.storyboard */; };
@@ -121,6 +123,9 @@
 		4C87476F1E640DA30043A747 /* WZAnotherBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZAnotherBarChartViewController.h; sourceTree = "<group>"; };
 		4C8747701E640DA30043A747 /* WZAnotherBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZAnotherBarChartViewController.m; sourceTree = "<group>"; };
 		4C8747711E640DA30043A747 /* WZAnotherBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZAnotherBarChartViewController.xib; sourceTree = "<group>"; };
+		4C8747741E6419870043A747 /* WZMultipleLinesChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMultipleLinesChartViewController.h; sourceTree = "<group>"; };
+		4C8747751E6419870043A747 /* WZMultipleLinesChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMultipleLinesChartViewController.m; sourceTree = "<group>"; };
+		4C8747761E6419870043A747 /* WZMultipleLinesChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZMultipleLinesChartViewController.xib; sourceTree = "<group>"; };
 		4C8A3ADA1E5D3A370098B24E /* ImportCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8A3ADE1E5D3A370098B24E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C8A3AE01E5D3A370098B24E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -247,6 +252,9 @@
 				4C87476F1E640DA30043A747 /* WZAnotherBarChartViewController.h */,
 				4C8747701E640DA30043A747 /* WZAnotherBarChartViewController.m */,
 				4C8747711E640DA30043A747 /* WZAnotherBarChartViewController.xib */,
+				4C8747741E6419870043A747 /* WZMultipleLinesChartViewController.h */,
+				4C8747751E6419870043A747 /* WZMultipleLinesChartViewController.m */,
+				4C8747761E6419870043A747 /* WZMultipleLinesChartViewController.xib */,
 				4C15DF8B1E5E755200CD3AC7 /* WZDayAxisValueFormatter.h */,
 				4C15DF8C1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m */,
 			);
@@ -346,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8747781E6419870043A747 /* WZMultipleLinesChartViewController.xib in Resources */,
 				4C8747691E63FE260043A747 /* WZStackedBarChartViewController.xib in Resources */,
 				4C15DF881E5E6F9100CD3AC7 /* WZBarChartViewController.xib in Resources */,
 				4C15DFA61E5ED07300CD3AC7 /* WZScatterChartViewController.xib in Resources */,
@@ -371,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8747771E6419870043A747 /* WZMultipleLinesChartViewController.m in Sources */,
 				4CD814D51E5D5D1200A141CE /* test.swift in Sources */,
 				4C8747681E63FE260043A747 /* WZStackedBarChartViewController.m in Sources */,
 				4C15DFA01E5EC66500CD3AC7 /* WZPiePolylineChartViewController.m in Sources */,
