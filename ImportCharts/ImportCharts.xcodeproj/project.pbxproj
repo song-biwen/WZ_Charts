@@ -41,6 +41,8 @@
 		4CC0F50C1E65554000018F0C /* WZCandleStickChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F50A1E65554000018F0C /* WZCandleStickChartViewController.xib */; };
 		4CC0F5101E65608500018F0C /* WZCubicLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0F50E1E65608500018F0C /* WZCubicLineChartViewController.m */; };
 		4CC0F5111E65608500018F0C /* WZCubicLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F50F1E65608500018F0C /* WZCubicLineChartViewController.xib */; };
+		4CC0F5151E65660600018F0C /* WZRadarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0F5131E65660600018F0C /* WZRadarChartViewController.m */; };
+		4CC0F5161E65660600018F0C /* WZRadarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F5141E65660600018F0C /* WZRadarChartViewController.xib */; };
 		4CD814CE1E5D5CE400A141CE /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A3AFC1E5D41130098B24E /* Charts.framework */; };
 		4CD814CF1E5D5CE400A141CE /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A3AFC1E5D41130098B24E /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4CD814D51E5D5D1200A141CE /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD814D41E5D5D1200A141CE /* test.swift */; };
@@ -150,6 +152,9 @@
 		4CC0F50D1E65608500018F0C /* WZCubicLineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCubicLineChartViewController.h; sourceTree = "<group>"; };
 		4CC0F50E1E65608500018F0C /* WZCubicLineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCubicLineChartViewController.m; sourceTree = "<group>"; };
 		4CC0F50F1E65608500018F0C /* WZCubicLineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZCubicLineChartViewController.xib; sourceTree = "<group>"; };
+		4CC0F5121E65660600018F0C /* WZRadarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZRadarChartViewController.h; sourceTree = "<group>"; };
+		4CC0F5131E65660600018F0C /* WZRadarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZRadarChartViewController.m; sourceTree = "<group>"; };
+		4CC0F5141E65660600018F0C /* WZRadarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZRadarChartViewController.xib; sourceTree = "<group>"; };
 		4CD814D31E5D5D1200A141CE /* ImportCharts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImportCharts-Bridging-Header.h"; sourceTree = "<group>"; };
 		4CD814D41E5D5D1200A141CE /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		4CD814D71E5D5E1500A141CE /* WZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTableViewController.h; sourceTree = "<group>"; };
@@ -279,6 +284,9 @@
 				4CC0F50D1E65608500018F0C /* WZCubicLineChartViewController.h */,
 				4CC0F50E1E65608500018F0C /* WZCubicLineChartViewController.m */,
 				4CC0F50F1E65608500018F0C /* WZCubicLineChartViewController.xib */,
+				4CC0F5121E65660600018F0C /* WZRadarChartViewController.h */,
+				4CC0F5131E65660600018F0C /* WZRadarChartViewController.m */,
+				4CC0F5141E65660600018F0C /* WZRadarChartViewController.xib */,
 				4C15DF8B1E5E755200CD3AC7 /* WZDayAxisValueFormatter.h */,
 				4C15DF8C1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m */,
 			);
@@ -397,6 +405,7 @@
 				4C8747621E63F81F0043A747 /* WZBubbleChartViewController.xib in Resources */,
 				4C15DF971E5EB03C00CD3AC7 /* WZCombinedChartViewController.xib in Resources */,
 				4C87476E1E6406950043A747 /* WZNegativeStackedBarChartViewController.xib in Resources */,
+				4CC0F5161E65660600018F0C /* WZRadarChartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +437,7 @@
 				4C8A3ADF1E5D3A370098B24E /* main.m in Sources */,
 				4CC0F5041E6548CE00018F0C /* WZMultipleBarChartViewController.m in Sources */,
 				4CD814DD1E5D5F3D00A141CE /* WZLineChart1ViewController.m in Sources */,
+				4CC0F5151E65660600018F0C /* WZRadarChartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,6 +26,7 @@
             @"WZNegativeStackedBarChartViewController",@"WZAnotherBarChartViewController",
                 @"WZMultipleLinesChartViewController",@"WZMultipleBarChartViewController",
                     @"WZCandleStickChartViewController",@"WZCubicLineChartViewController",
+                           @"WZRadarChartViewController",
                            ]
      
      ];
