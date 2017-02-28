@@ -39,6 +39,8 @@
 		4CC0F5051E6548CE00018F0C /* WZMultipleBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F5031E6548CE00018F0C /* WZMultipleBarChartViewController.xib */; };
 		4CC0F50B1E65554000018F0C /* WZCandleStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0F5091E65554000018F0C /* WZCandleStickChartViewController.m */; };
 		4CC0F50C1E65554000018F0C /* WZCandleStickChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F50A1E65554000018F0C /* WZCandleStickChartViewController.xib */; };
+		4CC0F5101E65608500018F0C /* WZCubicLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0F50E1E65608500018F0C /* WZCubicLineChartViewController.m */; };
+		4CC0F5111E65608500018F0C /* WZCubicLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F50F1E65608500018F0C /* WZCubicLineChartViewController.xib */; };
 		4CD814CE1E5D5CE400A141CE /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A3AFC1E5D41130098B24E /* Charts.framework */; };
 		4CD814CF1E5D5CE400A141CE /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A3AFC1E5D41130098B24E /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4CD814D51E5D5D1200A141CE /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD814D41E5D5D1200A141CE /* test.swift */; };
@@ -145,6 +147,9 @@
 		4CC0F5081E65554000018F0C /* WZCandleStickChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCandleStickChartViewController.h; sourceTree = "<group>"; };
 		4CC0F5091E65554000018F0C /* WZCandleStickChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCandleStickChartViewController.m; sourceTree = "<group>"; };
 		4CC0F50A1E65554000018F0C /* WZCandleStickChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZCandleStickChartViewController.xib; sourceTree = "<group>"; };
+		4CC0F50D1E65608500018F0C /* WZCubicLineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCubicLineChartViewController.h; sourceTree = "<group>"; };
+		4CC0F50E1E65608500018F0C /* WZCubicLineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCubicLineChartViewController.m; sourceTree = "<group>"; };
+		4CC0F50F1E65608500018F0C /* WZCubicLineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZCubicLineChartViewController.xib; sourceTree = "<group>"; };
 		4CD814D31E5D5D1200A141CE /* ImportCharts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImportCharts-Bridging-Header.h"; sourceTree = "<group>"; };
 		4CD814D41E5D5D1200A141CE /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		4CD814D71E5D5E1500A141CE /* WZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTableViewController.h; sourceTree = "<group>"; };
@@ -271,6 +276,9 @@
 				4CC0F5081E65554000018F0C /* WZCandleStickChartViewController.h */,
 				4CC0F5091E65554000018F0C /* WZCandleStickChartViewController.m */,
 				4CC0F50A1E65554000018F0C /* WZCandleStickChartViewController.xib */,
+				4CC0F50D1E65608500018F0C /* WZCubicLineChartViewController.h */,
+				4CC0F50E1E65608500018F0C /* WZCubicLineChartViewController.m */,
+				4CC0F50F1E65608500018F0C /* WZCubicLineChartViewController.xib */,
 				4C15DF8B1E5E755200CD3AC7 /* WZDayAxisValueFormatter.h */,
 				4C15DF8C1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m */,
 			);
@@ -370,6 +378,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC0F5111E65608500018F0C /* WZCubicLineChartViewController.xib in Resources */,
 				4CC0F5051E6548CE00018F0C /* WZMultipleBarChartViewController.xib in Resources */,
 				4C8747781E6419870043A747 /* WZMultipleLinesChartViewController.xib in Resources */,
 				4C8747691E63FE260043A747 /* WZStackedBarChartViewController.xib in Resources */,
@@ -399,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8747771E6419870043A747 /* WZMultipleLinesChartViewController.m in Sources */,
+				4CC0F5101E65608500018F0C /* WZCubicLineChartViewController.m in Sources */,
 				4CD814D51E5D5D1200A141CE /* test.swift in Sources */,
 				4C8747681E63FE260043A747 /* WZStackedBarChartViewController.m in Sources */,
 				4C15DFA01E5EC66500CD3AC7 /* WZPiePolylineChartViewController.m in Sources */,
