@@ -24,7 +24,8 @@
                         @"WZPiePolylineChartViewController",@"WZScatterChartViewController",
                            @"WZBubbleChartViewController",@"WZStackedBarChartViewController",
             @"WZNegativeStackedBarChartViewController",@"WZAnotherBarChartViewController",
-                           @"WZMultipleLinesChartViewController",
+                @"WZMultipleLinesChartViewController",@"WZMultipleBarChartViewController",
+                           @"WZCandleStickChartViewController",
                            ]
      
      ];

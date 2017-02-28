@@ -35,6 +35,10 @@
 		4C8A3AE81E5D3A370098B24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A3AE61E5D3A370098B24E /* Main.storyboard */; };
 		4C8A3AEA1E5D3A370098B24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A3AE91E5D3A370098B24E /* Assets.xcassets */; };
 		4C8A3AED1E5D3A370098B24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A3AEB1E5D3A370098B24E /* LaunchScreen.storyboard */; };
+		4CC0F5041E6548CE00018F0C /* WZMultipleBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0F5021E6548CE00018F0C /* WZMultipleBarChartViewController.m */; };
+		4CC0F5051E6548CE00018F0C /* WZMultipleBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F5031E6548CE00018F0C /* WZMultipleBarChartViewController.xib */; };
+		4CC0F50B1E65554000018F0C /* WZCandleStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0F5091E65554000018F0C /* WZCandleStickChartViewController.m */; };
+		4CC0F50C1E65554000018F0C /* WZCandleStickChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F50A1E65554000018F0C /* WZCandleStickChartViewController.xib */; };
 		4CD814CE1E5D5CE400A141CE /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A3AFC1E5D41130098B24E /* Charts.framework */; };
 		4CD814CF1E5D5CE400A141CE /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A3AFC1E5D41130098B24E /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4CD814D51E5D5D1200A141CE /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD814D41E5D5D1200A141CE /* test.swift */; };
@@ -135,6 +139,12 @@
 		4C8A3AEC1E5D3A370098B24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C8A3AEE1E5D3A370098B24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C8A3AF51E5D41120098B24E /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
+		4CC0F5011E6548CE00018F0C /* WZMultipleBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMultipleBarChartViewController.h; sourceTree = "<group>"; };
+		4CC0F5021E6548CE00018F0C /* WZMultipleBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMultipleBarChartViewController.m; sourceTree = "<group>"; };
+		4CC0F5031E6548CE00018F0C /* WZMultipleBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZMultipleBarChartViewController.xib; sourceTree = "<group>"; };
+		4CC0F5081E65554000018F0C /* WZCandleStickChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCandleStickChartViewController.h; sourceTree = "<group>"; };
+		4CC0F5091E65554000018F0C /* WZCandleStickChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCandleStickChartViewController.m; sourceTree = "<group>"; };
+		4CC0F50A1E65554000018F0C /* WZCandleStickChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZCandleStickChartViewController.xib; sourceTree = "<group>"; };
 		4CD814D31E5D5D1200A141CE /* ImportCharts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImportCharts-Bridging-Header.h"; sourceTree = "<group>"; };
 		4CD814D41E5D5D1200A141CE /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		4CD814D71E5D5E1500A141CE /* WZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTableViewController.h; sourceTree = "<group>"; };
@@ -255,6 +265,12 @@
 				4C8747741E6419870043A747 /* WZMultipleLinesChartViewController.h */,
 				4C8747751E6419870043A747 /* WZMultipleLinesChartViewController.m */,
 				4C8747761E6419870043A747 /* WZMultipleLinesChartViewController.xib */,
+				4CC0F5011E6548CE00018F0C /* WZMultipleBarChartViewController.h */,
+				4CC0F5021E6548CE00018F0C /* WZMultipleBarChartViewController.m */,
+				4CC0F5031E6548CE00018F0C /* WZMultipleBarChartViewController.xib */,
+				4CC0F5081E65554000018F0C /* WZCandleStickChartViewController.h */,
+				4CC0F5091E65554000018F0C /* WZCandleStickChartViewController.m */,
+				4CC0F50A1E65554000018F0C /* WZCandleStickChartViewController.xib */,
 				4C15DF8B1E5E755200CD3AC7 /* WZDayAxisValueFormatter.h */,
 				4C15DF8C1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m */,
 			);
@@ -354,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC0F5051E6548CE00018F0C /* WZMultipleBarChartViewController.xib in Resources */,
 				4C8747781E6419870043A747 /* WZMultipleLinesChartViewController.xib in Resources */,
 				4C8747691E63FE260043A747 /* WZStackedBarChartViewController.xib in Resources */,
 				4C15DF881E5E6F9100CD3AC7 /* WZBarChartViewController.xib in Resources */,
@@ -365,6 +382,7 @@
 				4C15DF9C1E5EBD0400CD3AC7 /* WZPieChartViewController.xib in Resources */,
 				4C8A3AEA1E5D3A370098B24E /* Assets.xcassets in Resources */,
 				4CD814DE1E5D5F3D00A141CE /* WZLineChart1ViewController.xib in Resources */,
+				4CC0F50C1E65554000018F0C /* WZCandleStickChartViewController.xib in Resources */,
 				4C15DF921E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.xib in Resources */,
 				4C8A3AE81E5D3A370098B24E /* Main.storyboard in Resources */,
 				4C8747621E63F81F0043A747 /* WZBubbleChartViewController.xib in Resources */,
@@ -396,7 +414,9 @@
 				4C8747611E63F81F0043A747 /* WZBubbleChartViewController.m in Sources */,
 				4C15DFA51E5ED07300CD3AC7 /* WZScatterChartViewController.m in Sources */,
 				4C87476D1E6406950043A747 /* WZNegativeStackedBarChartViewController.m in Sources */,
+				4CC0F50B1E65554000018F0C /* WZCandleStickChartViewController.m in Sources */,
 				4C8A3ADF1E5D3A370098B24E /* main.m in Sources */,
+				4CC0F5041E6548CE00018F0C /* WZMultipleBarChartViewController.m in Sources */,
 				4CD814DD1E5D5F3D00A141CE /* WZLineChart1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
