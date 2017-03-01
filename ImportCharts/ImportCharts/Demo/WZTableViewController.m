@@ -28,7 +28,7 @@
                     @"WZCandleStickChartViewController",@"WZCubicLineChartViewController",
                            @"WZRadarChartViewController",@"WZColoredLineChartViewController",
                 @"WZSinusBarChartViewController",@"WZPositiveNegativeBarChartViewController",
-                           @"WZLineChartTimeViewController",
+                        @"WZLineChartTimeViewController",@"WZLineChartFilledViewController",
                            ]
      
      ];

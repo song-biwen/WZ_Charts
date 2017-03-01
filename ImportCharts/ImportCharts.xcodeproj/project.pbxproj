@@ -26,6 +26,8 @@
 		4C612B461E667315000D37EB /* WZPositiveNegativeBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C612B441E667315000D37EB /* WZPositiveNegativeBarChartViewController.xib */; };
 		4C612B4A1E66795D000D37EB /* WZLineChartTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C612B481E66795D000D37EB /* WZLineChartTimeViewController.m */; };
 		4C612B4B1E66795D000D37EB /* WZLineChartTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C612B491E66795D000D37EB /* WZLineChartTimeViewController.xib */; };
+		4C612B4F1E669B6E000D37EB /* WZLineChartFilledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C612B4D1E669B6E000D37EB /* WZLineChartFilledViewController.m */; };
+		4C612B501E669B6E000D37EB /* WZLineChartFilledViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C612B4E1E669B6E000D37EB /* WZLineChartFilledViewController.xib */; };
 		4C8747611E63F81F0043A747 /* WZBubbleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C87475F1E63F81F0043A747 /* WZBubbleChartViewController.m */; };
 		4C8747621E63F81F0043A747 /* WZBubbleChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8747601E63F81F0043A747 /* WZBubbleChartViewController.xib */; };
 		4C8747681E63FE260043A747 /* WZStackedBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8747661E63FE260043A747 /* WZStackedBarChartViewController.m */; };
@@ -136,6 +138,9 @@
 		4C612B471E66795D000D37EB /* WZLineChartTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLineChartTimeViewController.h; sourceTree = "<group>"; };
 		4C612B481E66795D000D37EB /* WZLineChartTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZLineChartTimeViewController.m; sourceTree = "<group>"; };
 		4C612B491E66795D000D37EB /* WZLineChartTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZLineChartTimeViewController.xib; sourceTree = "<group>"; };
+		4C612B4C1E669B6E000D37EB /* WZLineChartFilledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLineChartFilledViewController.h; sourceTree = "<group>"; };
+		4C612B4D1E669B6E000D37EB /* WZLineChartFilledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZLineChartFilledViewController.m; sourceTree = "<group>"; };
+		4C612B4E1E669B6E000D37EB /* WZLineChartFilledViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZLineChartFilledViewController.xib; sourceTree = "<group>"; };
 		4C87475E1E63F81F0043A747 /* WZBubbleChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBubbleChartViewController.h; sourceTree = "<group>"; };
 		4C87475F1E63F81F0043A747 /* WZBubbleChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBubbleChartViewController.m; sourceTree = "<group>"; };
 		4C8747601E63F81F0043A747 /* WZBubbleChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZBubbleChartViewController.xib; sourceTree = "<group>"; };
@@ -319,6 +324,9 @@
 				4C612B471E66795D000D37EB /* WZLineChartTimeViewController.h */,
 				4C612B481E66795D000D37EB /* WZLineChartTimeViewController.m */,
 				4C612B491E66795D000D37EB /* WZLineChartTimeViewController.xib */,
+				4C612B4C1E669B6E000D37EB /* WZLineChartFilledViewController.h */,
+				4C612B4D1E669B6E000D37EB /* WZLineChartFilledViewController.m */,
+				4C612B4E1E669B6E000D37EB /* WZLineChartFilledViewController.xib */,
 				4C15DF8B1E5E755200CD3AC7 /* WZDayAxisValueFormatter.h */,
 				4C15DF8C1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m */,
 			);
@@ -426,6 +434,7 @@
 				4C8747691E63FE260043A747 /* WZStackedBarChartViewController.xib in Resources */,
 				4C15DF881E5E6F9100CD3AC7 /* WZBarChartViewController.xib in Resources */,
 				4C15DFA61E5ED07300CD3AC7 /* WZScatterChartViewController.xib in Resources */,
+				4C612B501E669B6E000D37EB /* WZLineChartFilledViewController.xib in Resources */,
 				4C8747731E640DA30043A747 /* WZAnotherBarChartViewController.xib in Resources */,
 				4CD814E61E5D7A6700A141CE /* WZLineChart2ViewController.xib in Resources */,
 				4C8A3AED1E5D3A370098B24E /* LaunchScreen.storyboard in Resources */,
@@ -457,6 +466,7 @@
 				4CD814D51E5D5D1200A141CE /* test.swift in Sources */,
 				4C8747681E63FE260043A747 /* WZStackedBarChartViewController.m in Sources */,
 				4C15DFA01E5EC66500CD3AC7 /* WZPiePolylineChartViewController.m in Sources */,
+				4C612B4F1E669B6E000D37EB /* WZLineChartFilledViewController.m in Sources */,
 				4C15DF911E5E8BC700CD3AC7 /* WZHorizontalBarChartViewController.m in Sources */,
 				4C15DF8D1E5E755200CD3AC7 /* WZDayAxisValueFormatter.m in Sources */,
 				4C15DF961E5EB03C00CD3AC7 /* WZCombinedChartViewController.m in Sources */,
