@@ -27,7 +27,7 @@
                 @"WZMultipleLinesChartViewController",@"WZMultipleBarChartViewController",
                     @"WZCandleStickChartViewController",@"WZCubicLineChartViewController",
                            @"WZRadarChartViewController",@"WZColoredLineChartViewController",
-                           
+                           @"WZSinusBarChartViewController",
                            ]
      
      ];
